@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-label="Nicolò Boni, developer at Zoonect">
+<title>Nicolò Boni, developer at Zoonect</title>
+<style>
+.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+.f{opacity:0;animation:fade .45s ease-out forwards}
+.r{opacity:0;animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes fade{to{opacity:1}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+.pulse{transform-box:fill-box;transform-origin:center;animation:ring 2.6s ease-out infinite}
+@keyframes ring{from{transform:scale(1);opacity:.6}to{transform:scale(1.35);opacity:0}}
+.crash rect{animation:crashbox 7s infinite}
+.crash .led{animation:crashled 7s infinite}
+@keyframes crashbox{0%,70%,86%,100%{stroke:#30363d;opacity:1}72%,78%{stroke:#f85149}80%,83%{opacity:.25}}
+@keyframes crashled{0%,70%,86%,100%{fill:#7ee787}72%,83%{fill:#f85149}}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important}
+  .f,.r{opacity:1}
+}
+</style>
+<rect x="1" y="1" width="838" height="298" rx="14" fill="#0d1117" stroke="#30363d"/>
+
+<text class="mono r" style="animation-delay:0.10s" x="40" y="78" font-size="13" fill="#8b949e"><tspan fill="#a78bfa">iex&gt;</tspan> Nicolo.whoami()</text>
+<text class="sans r" style="animation-delay:0.25s" x="38" y="136" font-size="48" font-weight="700" letter-spacing="-1" fill="#e6edf3">Nicolò Boni</text>
+<text class="sans r" style="animation-delay:0.40s" x="40" y="172" font-size="17" fill="#8b949e">Developer at Zoonect, Montecatini Terme</text>
+<text class="sans r" style="animation-delay:0.55s" x="40" y="200" font-size="17" fill="#8b949e">Elixir apps, Astro sites, brand visuals.</text>
+<text class="mono r" style="animation-delay:0.70s" x="40" y="248" font-size="12" fill="#8b949e">strategy: <tspan fill="#5eead4">:one_for_one</tspan>  # let it crash</text>
+
+<g class="f" style="animation-delay:0.30s">
+<path id="p0" d="M640,78 C640,114 484,104 484,140" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<path id="p1" d="M640,78 C640,114 588,104 588,140" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<path id="p2" d="M640,78 C640,114 686,104 686,140" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<path id="p3" d="M640,78 C640,114 792,104 792,140" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<path id="p4" d="M484,168 L484,226" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<path id="p5" d="M588,168 L588,226" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<path id="p6" d="M686,168 L686,226" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<path id="p7" d="M792,168 L792,226" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<circle r="3" fill="#a78bfa">
+  <animateMotion dur="2.2s" begin="0.00s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#p0"/></animateMotion>
+</circle>
+<circle r="3" fill="#5eead4">
+  <animateMotion dur="2.2s" begin="0.40s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p1"/></animateMotion>
+</circle>
+<circle r="3" fill="#a78bfa">
+  <animateMotion dur="2.2s" begin="0.80s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#p2"/></animateMotion>
+</circle>
+<circle r="3" fill="#5eead4">
+  <animateMotion dur="2.2s" begin="1.20s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p3"/></animateMotion>
+</circle>
+<circle r="3" fill="#5eead4">
+  <animateMotion dur="2.2s" begin="0.90s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p4"/></animateMotion>
+</circle>
+<circle r="3" fill="#a78bfa">
+  <animateMotion dur="2.2s" begin="1.25s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#p5"/></animateMotion>
+</circle>
+<circle r="3" fill="#5eead4">
+  <animateMotion dur="2.2s" begin="1.60s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p6"/></animateMotion>
+</circle>
+<circle r="3" fill="#a78bfa">
+  <animateMotion dur="2.2s" begin="1.95s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#p7"/></animateMotion>
+</circle>
+<rect class="pulse" x="553.7" y="50" width="172.6" height="28" rx="14" fill="none" stroke="#a78bfa"/>
+<g class="node ">
+  <rect x="553.7" y="50" width="172.6" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+  <circle class="led" cx="566.7" cy="64" r="3.5" fill="#7ee787"/>
+  <text class="mono" x="649.0" y="68.5" font-size="12.5" fill="#e6edf3" text-anchor="middle">Nicolo.Supervisor</text>
+</g>
+<g class="node ">
+  <rect x="441.4" y="140" width="85.2" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+  <circle class="led" cx="454.4" cy="154" r="3.5" fill="#7ee787"/>
+  <text class="mono" x="493.0" y="158.5" font-size="12.5" fill="#e6edf3" text-anchor="middle">Phoenix</text>
+</g><g class="node ">
+  <rect x="560.6" y="140" width="54.8" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+  <circle class="led" cx="573.6" cy="154" r="3.5" fill="#7ee787"/>
+  <text class="mono" x="597.0" y="158.5" font-size="12.5" fill="#e6edf3" text-anchor="middle">Ash</text>
+</g><g class="node ">
+  <rect x="651.0" y="140" width="70.0" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+  <circle class="led" cx="664.0" cy="154" r="3.5" fill="#7ee787"/>
+  <text class="mono" x="695.0" y="158.5" font-size="12.5" fill="#e6edf3" text-anchor="middle">Astro</text>
+</g><g class="node ">
+  <rect x="753.2" y="140" width="77.6" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+  <circle class="led" cx="766.2" cy="154" r="3.5" fill="#7ee787"/>
+  <text class="mono" x="801.0" y="158.5" font-size="12.5" fill="#e6edf3" text-anchor="middle">Design</text>
+</g>
+<g class="node ">
+  <rect x="437.6" y="226" width="92.8" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+  <circle class="led" cx="450.6" cy="240" r="3.5" fill="#7ee787"/>
+  <text class="mono" x="493.0" y="244.5" font-size="12.5" fill="#e6edf3" text-anchor="middle">LiveView</text>
+</g><g class="node crash">
+  <rect x="556.8" y="226" width="62.4" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+  <circle class="led" cx="569.8" cy="240" r="3.5" fill="#7ee787"/>
+  <text class="mono" x="597.0" y="244.5" font-size="12.5" fill="#e6edf3" text-anchor="middle">Oban</text>
+</g><g class="node ">
+  <rect x="639.6" y="226" width="92.8" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+  <circle class="led" cx="652.6" cy="240" r="3.5" fill="#7ee787"/>
+  <text class="mono" x="695.0" y="244.5" font-size="12.5" fill="#e6edf3" text-anchor="middle">Tailwind</text>
+</g><g class="node ">
+  <rect x="749.4" y="226" width="85.2" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+  <circle class="led" cx="762.4" cy="240" r="3.5" fill="#7ee787"/>
+  <text class="mono" x="801.0" y="244.5" font-size="12.5" fill="#e6edf3" text-anchor="middle">Blender</text>
+</g>
+</g>
+
+</svg>
