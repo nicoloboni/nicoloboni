@@ -22,11 +22,11 @@
 </style>
 <rect x="1" y="1" width="838" height="298" rx="14" fill="#ffffff" stroke="#d0d7de"/>
 
-<text class="mono r" style="animation-delay:0.10s" x="40" y="78" font-size="13" fill="#59636e"><tspan fill="#7c3aed">iex&gt;</tspan> Nicolo.whoami()</text>
+<text class="mono r" style="animation-delay:0.10s" x="40" y="78" font-size="13" fill="#59636e"><tspan fill="#3662cd">iex&gt;</tspan> Nicolo.whoami()</text>
 <text class="sans r" style="animation-delay:0.25s" x="38" y="136" font-size="48" font-weight="700" letter-spacing="-1" fill="#1f2328">Nicolò Boni</text>
 <text class="sans r" style="animation-delay:0.40s" x="40" y="172" font-size="17" fill="#59636e">Developer at Zoonect, Montecatini Terme</text>
 <text class="sans r" style="animation-delay:0.55s" x="40" y="200" font-size="17" fill="#59636e">Elixir apps, Astro sites, brand visuals.</text>
-<text class="mono r" style="animation-delay:0.70s" x="40" y="248" font-size="12" fill="#59636e">strategy: <tspan fill="#0d9488">:one_for_one</tspan>  # let it crash</text>
+<text class="mono r" style="animation-delay:0.70s" x="40" y="248" font-size="12" fill="#59636e">strategy: <tspan fill="#5c6900">:one_for_one</tspan>  # let it crash</text>
 
 <g class="f" style="animation-delay:0.30s">
 <path id="p0" d="M640,78 C640,114 484,104 484,140" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
@@ -37,31 +37,31 @@
 <path id="p5" d="M588,168 L588,226" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
 <path id="p6" d="M686,168 L686,226" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
 <path id="p7" d="M792,168 L792,226" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<circle r="3" fill="#7c3aed">
+<circle r="3" fill="#3662cd">
   <animateMotion dur="2.2s" begin="0.00s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#p0"/></animateMotion>
 </circle>
-<circle r="3" fill="#0d9488">
+<circle r="3" fill="#5c6900">
   <animateMotion dur="2.2s" begin="0.40s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p1"/></animateMotion>
 </circle>
-<circle r="3" fill="#7c3aed">
+<circle r="3" fill="#3662cd">
   <animateMotion dur="2.2s" begin="0.80s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#p2"/></animateMotion>
 </circle>
-<circle r="3" fill="#0d9488">
+<circle r="3" fill="#5c6900">
   <animateMotion dur="2.2s" begin="1.20s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p3"/></animateMotion>
 </circle>
-<circle r="3" fill="#0d9488">
+<circle r="3" fill="#5c6900">
   <animateMotion dur="2.2s" begin="0.90s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p4"/></animateMotion>
 </circle>
-<circle r="3" fill="#7c3aed">
+<circle r="3" fill="#3662cd">
   <animateMotion dur="2.2s" begin="1.25s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#p5"/></animateMotion>
 </circle>
-<circle r="3" fill="#0d9488">
+<circle r="3" fill="#5c6900">
   <animateMotion dur="2.2s" begin="1.60s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p6"/></animateMotion>
 </circle>
-<circle r="3" fill="#7c3aed">
+<circle r="3" fill="#3662cd">
   <animateMotion dur="2.2s" begin="1.95s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#p7"/></animateMotion>
 </circle>
-<rect class="pulse" x="553.7" y="50" width="172.6" height="28" rx="14" fill="none" stroke="#7c3aed"/>
+<rect class="pulse" x="553.7" y="50" width="172.6" height="28" rx="14" fill="none" stroke="#3662cd"/>
 <g class="node ">
   <rect x="553.7" y="50" width="172.6" height="28" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
   <circle class="led" cx="566.7" cy="64" r="3.5" fill="#1a7f37"/>

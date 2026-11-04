@@ -10,15 +10,17 @@ from pathlib import Path
 
 ASSETS = Path(__file__).resolve().parent.parent / "assets"
 
+# Accents come from the avatar (blue #3662cd, lime #dcf704), shifted per theme
+# where the raw colour would fall under 4.5:1 contrast on the background.
 THEMES = {
     "dark": dict(
         panel="#0d1117", raised="#161b22", border="#30363d", text="#e6edf3",
-        muted="#8b949e", accent="#a78bfa", accent2="#5eead4", ok="#7ee787",
+        muted="#8b949e", accent="#5b85ec", accent2="#dcf704", ok="#7ee787",
         crash="#f85149",
     ),
     "light": dict(
         panel="#ffffff", raised="#f6f8fa", border="#d0d7de", text="#1f2328",
-        muted="#59636e", accent="#7c3aed", accent2="#0d9488", ok="#1a7f37",
+        muted="#59636e", accent="#3662cd", accent2="#5c6900", ok="#1a7f37",
         crash="#cf222e",
     ),
 }
